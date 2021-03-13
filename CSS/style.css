@@ -164,6 +164,50 @@ h3 {
   color: black;
 }
 
+.hidden {
+  display: none;
+}
+
+/* Наши качества */
+.advantages {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+.title,
+.advantages {
+  margin-bottom: 10px;
+}
+li > .advantages {
+  text-transform: uppercase;
+}
+.advantages > li {
+  width: 270px;
+  margin-right: 30px;
+}
+.advantages > li:last-child {
+  margin-right: 0px;
+}
+
+/* Чем мы занимаемся */
+.what-we-do {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.we-do > .list {
+  display: flex;
+}
+.we-do > ul {
+  margin: 0px;
+  padding: 0px;
+}
+.we-do > .list > li {
+  width: 370px;
+  margin-right: 30px;
+}
+.we-do > .list > li:last-child {
+  margin-right: 0;
+}
 /* Наша команда */
 .teammate-position {
   font-size: 16px;
