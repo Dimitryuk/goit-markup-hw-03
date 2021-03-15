@@ -89,6 +89,7 @@ header {
 }
 .tel {
   margin-left: 50px;
+   text-decoration: none;
 }
 
 .site-nav .link {
@@ -110,6 +111,7 @@ header {
 }
 .mail {
   color: var(--title-text-color);
+   text-decoration: none;
 }
 .mail:focus,
 .mail:hover,
@@ -244,6 +246,7 @@ li > .advantages {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
+  background-color: var(--primary-white-color);
 }
 
 .team-list > .team-list-item {
@@ -281,6 +284,7 @@ footer {
 .mail-footer,
 .tel-footer {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 .mail-footer:focus,
 .mail-footer:hover,
