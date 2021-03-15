@@ -252,6 +252,9 @@ li > .advantages {
 .team-list > .team-list-item:last-child {
   margin-right: 0;
 }
+.team{
+  background-color:#F5F4FA;
+}
 /* Футер */
 
 address{
@@ -345,6 +348,10 @@ justify-content: center;
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
+
+}
+.product-card > img{
+  margin-bottom: 20px;
 }
 
 .product-description {
@@ -377,4 +384,8 @@ justify-content: center;
   border-right: 1px solid #EEEEEE;
 border-left: 1px solid #EEEEEE;
 border-bottom:1px solid #EEEEEE;
+margin-top: -20px;
+padding: 20px 24px;
+
 }
+
