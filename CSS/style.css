@@ -47,6 +47,19 @@ h2 {
   /* Хедер */
   
 }
+.head{
+  display: flex;
+  align-items: center;
+  height: 80px;
+  
+}
+.head > nav{
+  margin-left: 93px;
+}
+.site-nav{
+  display: flex;
+}
+
 .logo {
   color: var(--accent-color);
   font-family: Raleway;
@@ -74,22 +87,23 @@ header {
 /* Site nav */
 .site-nav,
 .head {
-  display: flex;
-  align-items: center;
+ 
+  
 }
 .site-nav {
-  margin-left: 93px;
-  margin-right: 281px;
+ 
 }
 .site-nav > li {
   margin-right: 50px;
 }
+
 .site-nav > li:last-child {
   margin-right: 0;
+  
 }
 .tel {
-  margin-left: 50px;
    text-decoration: none;
+margin-right: 0;
 }
 
 .site-nav .link {
@@ -112,6 +126,8 @@ header {
 .mail {
   color: var(--title-text-color);
    text-decoration: none;
+   margin-left: 281px;
+   margin-right: 50px;
 }
 .mail:focus,
 .mail:hover,
@@ -132,6 +148,7 @@ header {
 .hero-section {
   background-color: #2f303a;
   text-align: center;
+  height: 600px;
 }
 
 .title {
